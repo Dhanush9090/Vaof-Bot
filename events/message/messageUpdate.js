@@ -23,7 +23,7 @@ module.exports = {
         **Original**:\n ${Original}  \n**Edited**:\n ${Edited}`.slice("0", "4096"))
             .setFooter(`Member: ${newMessage.author.tag} | ID: ${newMessage.author.id}`);
 
-        new WebhookClient({ url: "https://discord.com/api/webhooks/939947514650587176/R4jrHefza1xvof-Y_j1NhnqbXYHTOO5XKuGd5jffddJRIN-4ODHs_Wiwyc6w3Behuz8S"}
+        new WebhookClient({ url: ""}
         ).send({embeds: [Log]}).catch((err) => console.log(err));
     }
 }
